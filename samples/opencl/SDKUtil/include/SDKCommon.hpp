@@ -18,6 +18,7 @@
 #include <string.h>
 #include <vector>
 #include <malloc.h>
+#include <unistd.h>
 
 #include <CL/opencl.h>
 

@@ -230,7 +230,7 @@ endif
 ifdef MINGW
   LDFLAGS           += -L/usr/X11R6/lib 
 else
-  LDFLAGS           += -lpthread -ldl -L/usr/X11R6/lib 
+  LDFLAGS           += -lpthread -ldl -L/usr/X11R6/lib -lX11
 endif
   LD_LIBDIR_FLAG    := -L
   LD_SHARED_FLAG    := -shared   
