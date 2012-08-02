@@ -1,0 +1,39 @@
+From 0cc9f24a2badf430a7d9546ad362e5b2130ff860 Mon Sep 17 00:00:00 2001
+From: Chris Lockfort <clockfort@csh.rit.edu>
+Date: Wed, 1 Aug 2012 22:55:15 -0400
+Subject: [PATCH] changes for newer GCC that is saner about transitive
+ inclusion
+
+---
+ make/openclsdkdefs.mk                        |    2 +-
+ samples/opencl/SDKUtil/include/SDKCommon.hpp |    1 +
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/make/openclsdkdefs.mk b/make/openclsdkdefs.mk
+index 8fed9af..6946cba 100644
+--- a/make/openclsdkdefs.mk
++++ b/make/openclsdkdefs.mk
+@@ -230,7 +230,7 @@ endif
+ ifdef MINGW
+   LDFLAGS           += -L/usr/X11R6/lib 
+ else
+-  LDFLAGS           += -lpthread -ldl -L/usr/X11R6/lib 
++  LDFLAGS           += -lpthread -ldl -L/usr/X11R6/lib -lX11
+ endif
+   LD_LIBDIR_FLAG    := -L
+   LD_SHARED_FLAG    := -shared   
+diff --git a/samples/opencl/SDKUtil/include/SDKCommon.hpp b/samples/opencl/SDKUtil/include/SDKCommon.hpp
+index a22a5cf..1957c7c 100644
+--- a/samples/opencl/SDKUtil/include/SDKCommon.hpp
++++ b/samples/opencl/SDKUtil/include/SDKCommon.hpp
+@@ -18,6 +18,7 @@
+ #include <string.h>
+ #include <vector>
+ #include <malloc.h>
++#include <unistd.h>
+ 
+ #include <CL/opencl.h>
+ 
+-- 
+1.7.10.4
+
