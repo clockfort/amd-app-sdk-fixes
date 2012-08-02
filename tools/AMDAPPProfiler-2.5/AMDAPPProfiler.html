@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>AMD APP Profiler</title>
+</head>
+<body>
+<h1 align="center">Release Notes for AMD APP Profiler</h1>
+
+<p><a name="New"><h3>What's New</h3>
+<UL>
+	<LI>
+<b>v2.5.1804 (April 16th 2012)</b>
+		<ul>
+			<li> Support for AMD APP SDK v2.7.
+			<li> Support for OpenCL&trade; 1.2.
+			<li> Support for collecting performance counters on APU devices.
+			<li> Full support for profiling with AMD Radeon&trade; HD7000 series GPUs based on Graphics Core Next/Southern Islands:
+			<ul>
+				<li> Added support for kernel occupancy analysis.
+				<li> Added support for collecting performance counters for DirectCompute (DirectX 11) applications.
+				<li> Addition of SALUBusy counter.
+				<li> Fixed value reported for VALUBusy counter.
+				<li> The values reported for LDSFetchInsts and LDSWriteInsts counters were inaccurate on AMD Radeon&trade; HD7000 series GPUs; thus for those GPUs, those two counters have been replaced by a single LDSInsts counter.
+				<li> Fixed display of kernel ISA.
+			</ul>
+			<li> Improved OpenCL&trade; analysis module:
+			<ul>
+			    <li> Added detection of deprecated OpenCL&trade; APIs.
+			</ul>
+			<li> Added support for showing source and destination location, as well as zero-copy status for memory transfers initiated using clEnqueueMapBuffer or clEnqueueMapImage.  This information is displayed in the API Trace view.</li>
+			<li> Added support for Microsoft&reg; Visual Studio&reg; projects that use User-defined Macros in the project settings.</li>
+			<li> Fixed the --workingdirectory (-w) command line switch (set current directory) on Linux.</li>
+			<li> Fixed some problems with importing previously-generated profile results into Microsoft&reg; Visual Studio&reg;.</li>
+			<li> Changed the default installation directory on Windows to <b>%PROGRAMFILES(X86)%\AMD\AMD APP Profiler</b> to make it more consistent with other AMD tools (i.e gDEBugger and CodeAnalyst)</li>
+		</ul>
+		<b>v2.4.1297 (December 19th 2011)</b>
+		<ul>
+			<li> Support for AMD APP SDK v2.6.
+			<li> Added a kernel occupancy analyzer, which calculates and displays a kernel occupancy number, which estimates the number of in-flight wavefronts on a compute unit as a percentage of the theoretical maximum number of wavefronts that the compute unit can support.
+			<li> Added support for collecting symbol information when collecting an application trace, allowing navigation from the API Trace view to the source code that called an API.
+			<li> Improved OpenCL&trade; analysis module:
+			<ul>
+			    <li> Added detection of non-optimized data transfer operations.
+			    <li> Added detection of redundant synchronization operations.
+			    <li> Improved detection of unnecessary blocking write operations.
+			    <li> Improved analysis in multithreaded applications (fixed false positives).
+			</ul>
+			<li> Added support for specifying which OpenCL&trade; APIs will be traced.
+			<li> Added ability to rename sessions in the Session Explorer Window.
+			<li> Added ability to automatically delete profiler sessions when closing a Microsoft&reg; Visual Studio&reg; solution.
+			<li> Added support for modifying the parameters used to initiate a profiler session.
+			<li> Added support for multiple-GPU systems when collecting performance counters.
+			<li> Improved the CLPerfMarkerAMD library.
+			<li> Improved performance when using timeout mode.
+			<li> In the session window, "GPRs" column has been renamed "VGPRs" (vector GPRs).
+			<li> Fixed a problem with loading saved counters from a file.
+			<li> Fixed a problem where the performance counter values for some kernel dispatch operations were reported as all zeros.
+			<li> Fixed a problem with missing GPU timestamps in an application trace when enabling the "Write trace data periodically during program execution" option.
+			<li> Removed Data Transfer data from the Session view for OpenCL&trade; applications.  It is recommended that you use the Application Trace view to get information on data transfers.
+			<li> Preview: Support for profiling with AMD Radeon&trade; HD7000 series GPUs (requires AMD APP SDK v2.6 and an AMD Catalyst version that supports this hardware).
+		</ul>
+		<br>
+		<b>v2.3.822 (July 12th 2011)</b>
+		<ul>
+			<li> Support for AMD APP SDK v2.5.
+			<li> Added an OpenCL&trade; analysis module that analyzes the API Trace and provides feedback on how the OpenCL&trade; application can be improved:
+			<ul>
+			    <li> Detects resource leaks of OpenCL&trade; objects.
+			    <li> Detects non-optimal global or local work group size.
+			    <li> Detects unnecessary blocking write operations.
+			    <li> Detects failed OpenCL&trade; API calls.
+			</ul>
+			<li> Support for marking sections of host code with performance markers that will be displayed in the timeline visualization (CLPerfMarkerAMD library).
+			<li> Support for including a call index in the Session csv file, allowing a specific kernel dispatch to be matched with its entry in the API trace.
+			<li> Support for treating consecutive identical clGetEventInfo calls as a single call in the API Trace and timeline visualization.
+			<li> Added new Options pages in Microsoft&reg; Visual Studio&reg; for setting API Trace, Timeline and Updater options.
+			<li> Improved timeline visualization.
+		</ul>
+		<br>
+		<b>v2.2.633 (April 6th 2011)</b>
+		<ul>
+			<li> Support for AMD APP SDK v2.4.
+			<li> Support for OpenCL&trade; application summary.
+			<li> Support for profiling with AMD Radeon&trade; HD6900 series GPUs (requires AMD APP SDK v2.4 and AMD Catalyst 11.2 and newer).
+			<li> ATI Stream Profiler is now AMD APP Profiler.
+			<li> Improved Session List Explorer.
+			<li> Improved user documentation (now, it is accessible online from the product's site).
+			<li> Improved searching in the API Trace, including support for case-sensitive searches and searches using regular expressions.
+			<li> Support for passing user-defined environment variables to the application being profiled.
+		</ul>
+		<br>
+		<b>v2.1.320 (December 15th 2010)</b>
+		<ul>
+			<li> Support for AMD APP SDK v2.3.
+			<li> Added support for Linux (command-line version).
+			<li> Added support for OpenCL&trade; timeline visualization.
+			<li> Added support for OpenCL&trade; application tracing.
+			<li> Added support for loading a previously-generated profile or trace result into Microsoft&reg; Visual Studio&reg;.
+			<li> LDSSize counter is now LocalMemSize.
+			<li> Improved the execution speed and memory consumption for profiling.
+	        <li> On the <B>APP Profiler Session List</B> panel inside Microsoft&reg; Visual Studio&reg;, you should find six buttons: <B>Collect GPU Performance Counters</B>,
+			     <B>Collect Application Trace</B>, <B>Import Profile Results</B>, <B>Clear Sessions</B>, <B>Open Profile Settings</B> and <B>Open Help Panel</B>.
+				 If you can only find four buttons on the <B>APP Profiler Session List</B> panel, please run
+				 <B>C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\devenv.exe /setup</B> on a 64-bit OS or
+				 <B>C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\devenv.exe /setup</B> on a 32-bit OS from a command line prompt
+				 (with "Run as Administrator" option).  Then, reboot your machine.
+		</ul>
+		<br>
+		<b>v2.0.441 (October 9th 2010)</b>
+		<ul>
+			<li> Support for profiling DirectCompute (DirectX 11) applications.
+			<li> Support for profiling 64-bit OpenCL&trade; applications.
+			<li> Reduced plugin's installation time.
+			<li> Improved updater.
+			<li> Fixed an installation problem on a machine with VBScript disabled.
+			<li> Added additional parameters to the command line interface.
+			<li> Updated the kernel naming scheme.
+			<li> When profiling using Microsoft&reg; Visual Studio&reg;, the output from each session is stored in a separate subdirectory.
+			<li> When profiling using the command-line interface, the default output directory is now an "AMD APP Profiler" directory under the current user's "Documents" directory.
+		</ul>
+		<br>
+		<b>v1.4.368 (August 12th 2010)</b>
+		<ul>
+			<li> Support for AMD APP SDK v2.2.
+			<li> Support OpenCL&trade; 1.1.
+			<li> Support Microsoft&reg; Visual Studio&reg; 2010.
+			<li> Support for command line interface.
+			<li> Added support to check whether the current version is up-to-date.
+			<li> Fixed data transfer size for image objects.
+			<li> Updated counter names and descriptions.
+			<li> Support OpenCL&trade; ELF binary format (SDK 2.2).
+		</ul>
+		<br>
+	<LI>
+		<b>v1.3.254 (May 20th 2010)</b>
+		<ul>
+			<li> Support data transfer for image objects.
+			<li> Added five new performance counters: FetchMem, L1CacheHit, LDSFetch, LDSWrite, and LDSBankConflictAccess.
+			<li> Added three shader compiler statistics: GPR, scratch register, and flow control stack size used by the kernel.
+			<li> Added support to view the CL kernel source in the CodeViewer panel.
+			<li> Added support to view the x86 assembly for CPU device in the CodeViewer panel.
+			<li> Temporary files are now stored in the ProfilerOutput directory.
+			<li> Improved Counter Selection Window.
+			<li> Improved results for ATI Radeon&trade; HD5770 and ATI Radeon&trade; HD5570 graphics cards.
+			<li> Report the API name for the data transfer operations and updated the unit from bytes to kilobytes.
+			<li> The kernel name is now appended with the kernel handle to differentiate kernel dispatches for kernel with the same name but different contents.
+		</ul>
+		<br>
+	<LI>
+		<b>v1.2.183 (May 3rd 2010)</b>
+		<ul>
+			<li> Support for AMD APP SDK v2.1.
+			<li> Support for timing data transfer operations.
+			<li> Added three new performance counters related to the global and local memory.
+			<li> Support for image object operations.
+			<li> Support for profiling on non-English OS and Microsoft&reg; Visual Studio&reg;.
+			<li> Support for launching a Session csv file directly with an external application (such as Microsoft&reg; Excel&reg;).
+			<li> Support for filtering the Session view to show or hide the kernel dispatch and/or data transfer operations.
+			<li> Fixed the response to a situation where dispatching kernels that read and write the same global memory buffer produces incorrect results
+			(<a href="http://developer.amd.com/support/KnowledgeBase/Lists/KnowledgeBase/DispForm.aspx?ID=81">KB# 81</a>).
+			<li> Improved performance counter results for ATI Radeon&trade; HD 5870.
+			<li> Fixed LDSBankConflict performance counter.
+			<li> Improved WriteUnitStalled performance counter.
+			<li> Improved Counter Selection Window.
+			<li> Improved session loading.
+		</UL>
+		<br>
+	<LI>
+		<b>v1.1.111 (February 4th 2010)</b>
+		<ul>
+			<li> Support for AMD APP SDK v2.01.
+			<li> Fixed the response to a situation where an application that uses a lot of video memory failed to profile to completion.
+			<li> Fixed the response to a situation where the profiler might fail to run with an app that contains multiple project settings.
+			<li> Fixed the response to a situation where Microsoft&reg; Visual Studio&reg; might crash after sorting the first column (Method) in the OpenCL&trade; Session panel.
+			<li> Fixed the response to a situation where Microsoft&reg; Visual Studio&reg; might present an obsolete profile data.
+			<li> Fixed IL/ISA support when the Debugging\Working Directory property is not empty.
+			<li> Fixed ALUBusy counter on ATI Radeon&trade; HD5870 graphics cards.
+			<li> Fixed WriteUnitStalled counter.
+			<li> Added context menu support to copy IL/ISA text in the Code Viewer Panel.
+		</UL>
+		<br>
+	<LI>
+		<b>v1.0.84 (December 21st 2009)</b> - Initial Public Release
+		<ul>
+			<li> Measure the execution time of an OpenCL&trade; kernel.
+			<li> Query the hardware performance counters on ATI Radeon&trade; graphics card.
+			<li> Show the memory traffic from and to GPU.
+			<li> Compare multiple runs (sessions) of the same or different programs.
+			<li> Store the profile data for each run in a csv file.
+			<li> Display the IL and ISA (hardware disassembly) code of the kernel.
+		</UL>
+		<br>
+</UL></p>
+
+</body>
+</html>

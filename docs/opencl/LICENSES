@@ -1,0 +1,351 @@
+IMPORTANT -- READ CAREFULLY:  Do not load this Software until you have 
+carefully read and agreed to the following terms and conditions.  This is a 
+legal agreement ("Agreement") between you (either an individual or an entity) 
+(you or "Licensee") and Advanced Micro Devices, Inc. ("AMD"). If Licensee 
+does not agree to the terms of this Agreement, do not install or use this 
+Software or any portion thereof.  By loading or using this software that may
+include associated media, printed Software, and online or electronic 
+documentation or any portion thereof that is made available to install 
+("Software"), Licensee agrees to all of the terms of this Agreement.
+
+1. License.  The software accompanying this License (hereinafter "Software"), 
+regardless of the form in which it is distributed, is licensed to you by 
+Advanced Micro Devices, Inc.  You own the medium on which the Software is 
+recorded, but Advanced Micro Devices, Inc. and, if applicable, its Licensors 
+(referred to collectively as "AMD") retain title to the Software and 
+related documentation.  You may:
+a) make a copy of the Software in machine-readable form for backup purposes.
+  You must reproduce on such copy AMD's copyright notice and any other 
+proprietary legends that were on the original copy of the Software;
+b) transfer all your license rights in the Software to a third party 
+provided you must also transfer a copy of this License, the backup copy of 
+the Software and the related documentation and provided the other party reads
+ and agrees to accept the terms and conditions of this License.  Upon such 
+transfer your license is then terminated; and
+c) make and distribute copies of the Software within your organization, 
+provided that you agree to include all copyright legends and other legal 
+notices that may appear in the Software, as well as this Software License 
+Agreement in its entirety, in each copy of the Software that is made or 
+distributed.
+
+2.  Restrictions.  The Software contains copyrighted and patented material, 
+trade secrets and other proprietary material.  In order to protect them, and 
+except as permitted by applicable legislation, you may not:
+a) decompile, reverse engineer, disassemble or otherwise reduce the Software 
+to a human-perceivable form;
+b) modify, network, rent, lend, loan, distribute or create derivative works 
+based upon the Software in whole or in part; or
+c) electronically transmit the Software from one computer to another or over 
+a network or otherwise transfer the Software except as permitted by this 
+License.
+
+3 OWNERSHIP AND COPYRIGHT OF SOFTWARE: The Software is owned by AMD and is 
+protected by United States and foreign intellectual property laws (e.g. patent 
+and copyright laws) and international treaty provisions.  Licensee will not 
+remove the copyright notice from the Software.  Licensee agrees to prevent 
+any unauthorized copying of the Software.  All title and copyrights in and 
+to the Software, all copies thereof (in whole or in part, and in any form), 
+and all rights therein shall remain vested in AMD.  Except as expressly 
+provided herein, AMD does not grant any express or implied right to Licensee 
+under AMD patents, copyrights, trademarks, or trade secret information.  All 
+rights in and to the Software not expressly granted to Licensee in this 
+Agreement are reserved to AMD.
+
+4.  SUPPORT:  Under this Agreement, AMD is under no obligation to assist in 
+the use of this Software, to provide support to licensees of the Software, or 
+to provide maintenance, correction, modification, enhancement, or upgrades to 
+the Software.  AMD may provide such support, maintenance, correction, 
+modification, enhancement or upgrades in a media determined by AMD and AMD 
+shall have no obligation to notify Licensee thereof.  Additionally, such 
+support, maintenance, correction, modification, enhancement, or upgrades shall 
+be considered part of the Software, and shall be subject to this Agreement.
+
+5.  Termination.  This License is effective until terminated.  You may 
+terminate this License at any time by destroying the Software, related 
+documentation and all copies thereof.  This License will terminate 
+immediately without notice from AMD if you fail to comply with any provision 
+of this License.  Upon termination you must destroy the Software, related 
+documentation and all copies thereof.
+
+6.  Government End Users. If you are acquiring the Software on behalf of any 
+unit or agency of the United States Government, the following provisions 
+apply.  The Government agrees the Software and documentation were developed 
+at private expense and are provided with "RESTRICTED RIGHTS".  Use, 
+duplication, or disclosure by the Government is subject to restrictions as 
+set forth in DFARS 227.7202-1(a) and 227.7202-3(a) (1995), DFARS 
+252.227-7013(c)(1)(ii) (Oct 1988), FAR 12.212(a)(1995), FAR 52.227-19, (June 
+1987) or FAR 52.227-14(ALT III) (June 1987),as amended from time to time.  
+In the event that this License, or any part thereof, is deemed inconsistent 
+with the minimum rights identified in the Restricted Rights provisions, the 
+minimum rights shall prevail.
+
+7.  EXPORT ASSURANCES:  Licensee agrees and certifies that neither the 
+Software, nor any direct product thereof will be exported, directly or 
+indirectly, into any country prohibited by the United States Export 
+Administration Act and the regulations thereunder without the required 
+authorization from the United States government nor will it be used for any 
+purpose prohibited by the same.
+
+8.  No Other License.  No rights or licenses are granted by AMD under this 
+License, expressly or by implication, with respect to any proprietary 
+information or patent, copyright, trade secret or other intellectual property 
+right owned or controlled by AMD, except as expressly provided in this 
+License.
+
+9.  Additional Licenses.  DISTRIBUTION OR USE OF THE SOFTWARE WITH AN 
+OPERATING SYSTEM MAY REQUIRE ADDITIONAL LICENSES FROM THE OPERATING SYSTEM 
+VENDOR.  
+
+10.  Disclaimer of Warranty on Software.  You expressly acknowledge and agree 
+that use of the Software is at your sole risk.  The Software and related 
+documentation are provided "AS IS" and without warranty of any kind and AMD 
+EXPRESSLY DISCLAIMS ALL WARRANTIES, EXPRESS AND IMPLIED, INCLUDING, BUT NOT 
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A 
+PARTICULAR PURPOSE.  AMD DOES NOT WARRANT THAT THE FUNCTIONS CONTAINED IN THE 
+SOFTWARE WILL MEET YOUR REQUIREMENTS, OR THAT THE OPERATION OF THE SOFTWARE 
+WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS IN THE SOFTWARE WILL BE 
+CORRECTED.  THE ENTIRE RISK AS TO THE RESULTS AND PERFORMANCE OF THE 
+SOFTWARE IS ASSUMED BY YOU.  FURTHERMORE, AMD DOES NOT WARRANT OR MAKE ANY 
+REPRESENTATIONS REGARDING THE USE OR THE RESULTS OF THE USE OF THE SOFTWARE 
+OR RELATED DOCUMENTATION IN TERMS OF THEIR CORRECTNESS, ACCURACY, 
+RELIABILITY, CURRENTNESS, OR OTHERWISE. NO ORAL OR WRITTEN INFORMATION OR 
+ADVICE GIVEN BY AMD OR AMD'S AUTHORIZED REPRESENTATIVE SHALL CREATE A 
+WARRANTY OR IN ANY WAY INCREASE THE SCOPE OF THIS WARRANTY.  SHOULD THE 
+SOFTWARE PROVE DEFECTIVE, YOU (AND NOT AMD OR AMD'S AUTHORIZED 
+REPRESENTATIVE) ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, REPAIR 
+OR CORRECTION.  THE SOFTWARE IS NOT INTENDED FOR USE IN MEDICAL, LIFE SAVING 
+OR LIFE SUSTAINING APPLICATIONS.  SOME JURISDICTIONS DO NOT ALLOW THE 
+EXCLUSION OF IMPLIED WARRANTIES, SO THE ABOVE EXCLUSION MAY NOT APPLY TO YOU.  
+
+11.  Limitation of Liability. UNDER NO CIRCUMSTANCES INCLUDING NEGLIGENCE, 
+SHALL AMD, OR ITS DIRECTORS, OFFICERS, EMPLOYEES OR AGENTS, BE LIABLE TO YOU 
+FOR ANY INCIDENTAL, INDIRECT, SPECIAL OR CONSEQUENTIAL DAMAGES (INCLUDING 
+DAMAGES FOR LOSS OF BUSINESS PROFITS, BUSINESS INTERRUPTION, LOSS OF BUSINESS 
+INFORMATION, AND THE LIKE) ARISING OUT OF THE USE, MISUSE OR INABILITY TO USE 
+THE SOFTWARE OR RELATED DOCUMENTATION, BREACH OR DEFAULT, INCLUDING THOSE 
+ARISING FROM INFRINGEMENT OR ALLEGED INFRINGEMENT OF ANY PATENT, TRADEMARK, 
+COPYRIGHT OR OTHER INTELLECTUAL PROPERTY RIGHT, BY AMD, EVEN IF AMD OR AMD'S 
+AUTHORIZED REPRESENTATIVE HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH 
+DAMAGES.  SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR EXCLUSION OF 
+LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE LIMITATION OR 
+EXCLUSION MAY NOT APPLY TO YOU.  AMD will not be liable for 1) loss of, or 
+damage to, your records or data or 2) any damages claimed by you based on any 
+third party claim.   In no event shall AMD's total liability to you for all 
+damages, losses, and causes of action (whether in contract, tort (including 
+negligence) or otherwise) exceed the amount paid by you for the Software.
+
+12.  Controlling Law and Severability.  This License shall be governed by and 
+construed under the laws of the state of California without reference to its 
+conflict of law principles.  In the event of any conflicts between foreign 
+law, rules, and regulations, and United States law, rules, and regulations, 
+United States rules and regulations shall prevail and govern.  The United 
+Nations Convention on Contracts for the International Sale of Goods shall not 
+apply to this License.  If for any reason a court of competent jurisdiction 
+finds any provision of this License or portion thereof, to be unenforceable, 
+that provision of the License shall be enforced to the maximum extent 
+permissible so as to effect the intent of the parties, and the remainder of 
+this License shall continue in full force and effect.
+
+13.  Complete Agreement.  This License constitutes the entire agreement 
+between the parties with respect to the use of the Software and the related 
+documentation, and supersedes all prior or contemporaneous understandings or 
+agreements, written or oral, regarding such subject matter.  No amendment to 
+or modification of this License will be binding unless in writing and signed 
+by a duly authorized representative of AMD.
+
+This software may be used for any purpose but may not be re-sold in original 
+or modified form. 
+
+
+Includes code under the following licenses:
+
+libelf from the Elf Tool Chain Project
+http://sourceforge.net/apps/trac/elftoolchain/
+
+/*-
+ * Copyright (c) 2006,2008 Joseph Koshy
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ */
+
+src/sys/sys/elf32.h, src/sys/sys/elf64.h and src/sys/sys/elf_common.h
+
+/*-
+ * Copyright (c) 1996-1998 John D. Polstra.
+ * All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ */
+
+src/sys/sys/queue.h
+
+/*
+ * Copyright (c) 1991, 1993
+ *	The Regents of the University of California.  All rights reserved.
+ *
+ * Redistribution and use in source and binary forms, with or without
+ * modification, are permitted provided that the following conditions
+ * are met:
+ * 1. Redistributions of source code must retain the above copyright
+ *    notice, this list of conditions and the following disclaimer.
+ * 2. Redistributions in binary form must reproduce the above copyright
+ *    notice, this list of conditions and the following disclaimer in the
+ *    documentation and/or other materials provided with the distribution.
+ * 3. All advertising materials mentioning features or use of this software
+ *    must display the following acknowledgement:
+ *	This product includes software developed by the University of
+ *	California, Berkeley and its contributors.
+ * 4. Neither the name of the University nor the names of its contributors
+ *    may be used to endorse or promote products derived from this software
+ *    without specific prior written permission.
+ *
+ * THIS SOFTWARE IS PROVIDED BY THE REGENTS AND CONTRIBUTORS ``AS IS'' AND
+ * ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ * ARE DISCLAIMED.  IN NO EVENT SHALL THE REGENTS OR CONTRIBUTORS BE LIABLE
+ * FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ * DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ * OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ * HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ * LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ * OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ * SUCH DAMAGE.
+ *
+ */
+ 
+ opencl/library/gpu/common/src/math64/erfcD.h and
+ opencl/library/gpu/common/src/math64/erfD.h
+
+/*
+ * ====================================================
+ * Copyright (C) 1993 by Sun Microsystems, Inc. All rights reserved.
+ *
+ * Developed at SunPro, a Sun Microsystems, Inc. business.
+ * Permission to use, copy, modify, and distribute this
+ * software is freely granted, provided that this notice
+ * is preserved.
+ * ====================================================
+ */
+ 
+ opencl\include\GL\glew.h,
+ opencl\include\GL\glxew.h,
+ opencl\include\GL\wglew.h
+ 
+/*
+** The OpenGL Extension Wrangler Library
+** Copyright (C) 2002-2008, Milan Ikits <milan ikits[]ieee org>
+** Copyright (C) 2002-2008, Marcelo E. Magallon <mmagallo[]debian org>
+** Copyright (C) 2002, Lev Povalahev
+** All rights reserved.
+** 
+** Redistribution and use in source and binary forms, with or without 
+** modification, are permitted provided that the following conditions are met:
+** 
+** * Redistributions of source code must retain the above copyright notice, 
+**   this list of conditions and the following disclaimer.
+** * Redistributions in binary form must reproduce the above copyright notice, 
+**   this list of conditions and the following disclaimer in the documentation 
+**   and/or other materials provided with the distribution.
+** * The name of the author may be used to endorse or promote products 
+**   derived from this software without specific prior written permission.
+**
+** THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" 
+** AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE 
+** IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+** ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE 
+** LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR 
+** CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF 
+** SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+** INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+** CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+** ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
+** THE POSSIBILITY OF SUCH DAMAGE.
+*/
+
+/*
+ * Mesa 3-D graphics library
+ * Version:  7.0
+ *
+ * Copyright (C) 1999-2007  Brian Paul   All Rights Reserved.
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a
+ * copy of this software and associated documentation files (the "Software"),
+ * to deal in the Software without restriction, including without limitation
+ * the rights to use, copy, modify, merge, publish, distribute, sublicense,
+ * and/or sell copies of the Software, and to permit persons to whom the
+ * Software is furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included
+ * in all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+ * OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL
+ * BRIAN PAUL BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+ * AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ * CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+/*
+** Copyright (c) 2007 The Khronos Group Inc.
+** 
+** Permission is hereby granted, free of charge, to any person obtaining a
+** copy of this software and/or associated documentation files (the
+** "Materials"), to deal in the Materials without restriction, including
+** without limitation the rights to use, copy, modify, merge, publish,
+** distribute, sublicense, and/or sell copies of the Materials, and to
+** permit persons to whom the Materials are furnished to do so, subject to
+** the following conditions:
+** 
+** The above copyright notice and this permission notice shall be included
+** in all copies or substantial portions of the Materials.
+** 
+** THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+** EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+** MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+** IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+** CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+** TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+** MATERIALS OR THE USE OR OTHER DEALINGS IN THE MATERIALS.
+*/
